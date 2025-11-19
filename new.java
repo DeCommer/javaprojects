@@ -2,6 +2,9 @@ public class New {
 
 
     public static void main(String[] args) {
-        System.out.println("Works");
+
+        for(int i = 0; i < 101; i++) {
+            System.out.print(i - 1 + ", ");
+        }
     }
 }
