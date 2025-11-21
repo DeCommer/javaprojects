@@ -32,8 +32,8 @@ public class mathQuiz2 {
       while(tryAgain) {
          for(questionNum = 1; questionNum <= loopNum; questionNum++){ //Loops through questions
             try{
-               num1 = (int)random.nextInt(10); //chooses random first number
-               num2 = (int)random.nextInt(10); //chooses random second number
+               num1 = (int)random.nextInt(100); //chooses random first number from 1 to 100
+               num2 = (int)random.nextInt(100); //chooses random second number from 1 to 100
                // zeroNumr = (int)random.nextDouble(num2 - 1) + 1;
                String[] operator = {" + ", " - ", " * ", " / "}; //Sets a string to loop over for choosing an operator
                String randOp = operator[(int) (Math.random() * operator.length)]; //Chooses a random operator from set
