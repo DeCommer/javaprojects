@@ -7,7 +7,7 @@ public class mathQuiz2 {
    static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
 
-      //Declaring variables and setting state
+      //Declaring variables and setting state 
       Random random = new Random();
       double num1;
       double num2;
